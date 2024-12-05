@@ -1,0 +1,8 @@
+[package]
+name = "signal-handler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2.167"
+tokio = { version = "1.29.0", features = ["full"] }
